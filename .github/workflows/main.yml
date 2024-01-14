@@ -16,7 +16,7 @@ jobs:
       - name: AI Code Reviewer
         uses: vinayakadj/ai-code-reviewer@main
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: "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"
+          OPENAI_API_KEY: "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"
           OPENAI_API_MODEL: "gpt-4" # Optional: defaults to "gpt-4"
           exclude: "**/*.json, **/*.md" # Optional: exclude patterns separated by commas
