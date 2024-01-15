@@ -16,8 +16,8 @@ inputs:
     required: false
     default: ""
 runs:
-  using: "node16"
-  main: "dist/index.js"
+  using: "gcc"
+  main: "Sample_code.cpp"
 branding:
   icon: "aperture"
   color: "green"
